@@ -9,6 +9,7 @@ interface ProfileCardProps {
 }
 
 // The component receives 'props' as an argument.
+// Ajout d'un commentaire pour tester pull request
 // We use destructuring to get the values we need directly.
 const ProfileCard: React.FC<ProfileCardProps> = (props) => {
   const { name, jobTitle, imageUrl } = props;
